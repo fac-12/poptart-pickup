@@ -1,3 +1,6 @@
+const fs = require('fs');
+const path = require('path');
+
 // ------- HOME HANDLER ------- //
 // input : request, response
 // serves up index.Chocolatey_Caramel
