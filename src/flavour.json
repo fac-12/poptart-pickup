@@ -1,1182 +1,926 @@
 {
-  total: 130,
-  batches: 1,
-  currentBatch: 1,
-  next: 201,
-  items: [{
-      id: 3795,
-      title: "Flavors",
-      url: "http://poptarts.wikia.com/wiki/Flavors",
-      ns: 0,
-      quality: 0,
-      snippet: "Flavors&hellip;"
-    },
-    {
-      id: 2093,
-      title: "Category:Unfrosted Flavors",
-      url: "http://poptarts.wikia.com/wiki/Category:Unfrosted_Flavors",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are unfrosted <span class="
-      searchmatch ">flavors</span> of Pop Tarts&hellip;"
-    },
-    {
-      id: 2062,
-      title: "Category:Discontinued Flavors",
-      url: "http://poptarts.wikia.com/wiki/Category:Discontinued_Flavors",
-      ns: 14,
-      quality: 0,
-      snippet: "The articles and media in this category are discontinued Pop Tarts, Go Tarts, Pastry Swirls, Snak-Stix, and Pop Tarts Crunch <span class="
-      searchmatch ">flavors</span>. Not stated&hellip;"
-    },
-    {
-      id: 2730,
-      title: "Category:Ice Cream Shoppe Flavors",
-      url: "http://poptarts.wikia.com/wiki/Category:Ice_Cream_Shoppe_Flavors",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are Ice Cream Shoppe <span class="
-      searchmatch ">flavors</span> of Pop Tarts&hellip;"
-    },
-    {
-      id: 4065,
-      title: "Best Pop Tart Flavor!",
-      url: "http://poptarts.wikia.com/wiki/Best_Pop_Tart_Flavor!",
-      ns: 0,
-      quality: 0,
-      snippet: "Best Pop Tart Flavor&hellip;"
-    },
-    {
-      id: 2652,
-      title: "Category:Users favorite flavor of Pop Tarts is Chocolate Chip",
-      url: "http://poptarts.wikia.com/wiki/Category:Users_favorite_flavor_of_Pop_Tarts_is_Chocolate_Chip",
-      ns: 14,
-      quality: null,
-      snippet: "This category is for users who's favorite <span class="
-      searchmatch ">flavor</span> of Pop Tarts is Chocolate Chip. To join this category, simply put {{User CC}}, or add the category&hellip;"
-    },
-    {
-      id: 2391,
-      title: "Wild Strawberry with Holiday Sprinkles",
-      url: "http://poptarts.wikia.com/wiki/Wild_Strawberry_with_Holiday_Sprinkles",
-      ns: 0,
-      quality: 2,
-      snippet: "Wild Strawberry with Holiday Sprinkles is a discontinued Pop-Tart <span class="
-      searchmatch ">flavor</span>. More coming soon! Wild Strawberry with Holiday Sprinkles <span class="
-      searchmatch ">Flavor</span>: Strawberry&hellip;"
-    },
-    {
-      id: 3845,
-      title: "Blue Raspberry",
-      url: "http://poptarts.wikia.com/wiki/Blue_Raspberry",
-      ns: 0,
-      quality: 0,
-      snippet: "Blue Raspberry is a new <span class="
-      searchmatch ">flavor</span> of Pop Tarts. It was introduced in 2015&hellip;"
-    },
-    {
-      id: 2066,
-      title: "Frosted Chocolate Fudge",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Fudge",
-      ns: 0,
-      quality: 29,
-      snippet: "Frosted Chocolate Fudge Pop Tarts is a frosted <span class="
-      searchmatch ">flavor</span>. It comes in 8 ct, 12 ct, 2 ct, 16 ct, and 2 ct vend sizes. It is iced with smooth chocolate&hellip;"
-    },
-    {
-      id: 2430,
-      title: "Frosted Lava Berry Explosion",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Lava_Berry_Explosion",
-      ns: 0,
-      quality: 12,
-      snippet: " Frosted Lava Berry Explosion Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 12 ct sizes. The pastries feature orange sprinkles&hellip;"
-    },
-    {
-      id: 2037,
-      title: "Frosted Cherry",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Cherry",
-      ns: 0,
-      quality: 0,
-      snippet: "Frosted Cherry&hellip;"
-    },
+  "total": 130,
+  "batches": 1,
+  "currentBatch": 1,
+  "next": 201,
+  "items": [{
+      "id": 3795,
+      "title": "Flavors",
+      "url": "http://poptarts.wikia.com/wiki/Flavors",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2093,
+      "title": "Category:Unfrosted Flavors",
+      "url": "http://poptarts.wikia.com/wiki/Category:Unfrosted_Flavors",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2062,
+      "title": "Category:Discontinued Flavors",
+      "url": "http://poptarts.wikia.com/wiki/Category:Discontinued_Flavors",
+      "ns": 14,
+      "quality": 0
+    },
+    {
+      "id": 2730,
+      "title": "Category:Ice Cream Shoppe Flavors",
+      "url": "http://poptarts.wikia.com/wiki/Category:Ice_Cream_Shoppe_Flavors",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 4065,
+      "title": "Best Pop Tart Flavor!",
+      "url": "http://poptarts.wikia.com/wiki/Best_Pop_Tart_Flavor!",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2652,
+      "title": "Category:Users favorite flavor of Pop Tarts is Chocolate Chip",
+      "url": "http://poptarts.wikia.com/wiki/Category:Users_favorite_flavor_of_Pop_Tarts_is_Chocolate_Chip",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2391,
+      "title": "Wild Strawberry with Holiday Sprinkles",
+      "url": "http://poptarts.wikia.com/wiki/Wild_Strawberry_with_Holiday_Sprinkles",
+      "ns": 0,
+      "quality": 2
+    },
+    {
+      "id": 3845,
+      "title": "Blue Raspberry",
+      "url": "http://poptarts.wikia.com/wiki/Blue_Raspberry",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2066,
+      "title": "Frosted Chocolate Fudge",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Fudge",
+      "ns": 0,
+      "quality": 29
+    },
+    {
+      "id": 2430,
+      "title": "Frosted Lava Berry Explosion",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Lava_Berry_Explosion",
+      "ns": 0,
+      "quality": 12
+    },
+    {
+      "id": 2037,
+      "title": "Frosted Cherry",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Cherry",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2064,
+      "title": "Frosted Chocolate Chip Cookie Dough",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Chip_Cookie_Dough",
+      "ns": 0,
+      "quality": 19
+    },
+    {
+      "id": 2138,
+      "title": "Frosted Grape",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Grape",
+      "ns": 0,
+      "quality": 18
+    },
+    {
+      "id": 2195,
+      "title": "Hello Kitty Meow-Berry",
+      "url": "http://poptarts.wikia.com/wiki/Hello_Kitty_Meow-Berry",
+      "ns": 0,
+      "quality": 10
+    },
+    {
+      "id": 2097,
+      "title": "Brown Sugar Cinnamon (Unfrosted)",
+      "url": "http://poptarts.wikia.com/wiki/Brown_Sugar_Cinnamon_(Unfrosted)",
+      "ns": 0,
+      "quality": 38
+    },
+    {
+      "id": 2410,
+      "title": "Frosted Wild! Grape",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Wild!_Grape",
+      "ns": 0,
+      "quality": 22
+    },
+    {
+      "id": 2071,
+      "title": "Frosted Cookies & Creme",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Cookies_%26_Creme",
+      "ns": 0,
+      "quality": 33
+    },
+    {
+      "id": 2046,
+      "title": "Frosted Blueberry Muffin",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Blueberry_Muffin",
+      "ns": 0,
+      "quality": 14
+    },
+    {
+      "id": 2095,
+      "title": "Strawberry (Unfrosted)",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_(Unfrosted)",
+      "ns": 0,
+      "quality": 17
+    },
+    {
+      "id": 2061,
+      "title": "Mint Chocolate Chip",
+      "url": "http://poptarts.wikia.com/wiki/Mint_Chocolate_Chip",
+      "ns": 0,
+      "quality": 33
+    },
+    {
+      "id": 2277,
+      "title": "Brown Sugar Cinnamon (Go Tarts)",
+      "url": "http://poptarts.wikia.com/wiki/Brown_Sugar_Cinnamon_(Go_Tarts)",
+      "ns": 0,
+      "quality": 48
+    },
+    {
+      "id": 2149,
+      "title": "Frosted Caramel Chocolate",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Caramel_Chocolate",
+      "ns": 0,
+      "quality": 23
+    },
+    {
+      "id": 2324,
+      "title": "Wild! Magicburst",
+      "url": "http://poptarts.wikia.com/wiki/Wild!_Magicburst",
+      "ns": 0,
+      "quality": 9
+    },
+    {
+      "id": 2035,
+      "title": "Frosted Brown Sugar Cinnamon",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Brown_Sugar_Cinnamon",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2059,
+      "title": "French Toast",
+      "url": "http://poptarts.wikia.com/wiki/French_Toast",
+      "ns": 0,
+      "quality": 47
+    },
+    {
+      "id": 2078,
+      "title": "Strawberry Cheese Danish",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_Cheese_Danish",
+      "ns": 0,
+      "quality": 27
+    },
+    {
+      "id": 2105,
+      "title": "Strawberry Blueberry Splitz",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_Blueberry_Splitz",
+      "ns": 0,
+      "quality": 22
+    },
+    {
+      "id": 2192,
+      "title": "Disney Princess Jewelberry",
+      "url": "http://poptarts.wikia.com/wiki/Disney_Princess_Jewelberry",
+      "ns": 0,
+      "quality": 17
+    },
+    {
+      "id": 2187,
+      "title": "Frosted Double Berry",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Double_Berry",
+      "ns": 0,
+      "quality": 37
+
+    },
+    {
+      "id": 2068,
+      "title": "Frosted Cinnamon Roll",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Cinnamon_Roll",
+      "ns": 0,
+      "quality": 16
+    },
+    {
+      "id": 3964,
+      "title": "Star Wars LavaBerry PopTarts",
+      "url": "http://poptarts.wikia.com/wiki/Star_Wars_LavaBerry_PopTarts",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2450,
+      "title": "Chocolate Vanilla Creme",
+      "url": "http://poptarts.wikia.com/wiki/Chocolate_Vanilla_Creme",
+      "ns": 0,
+      "quality": 23
+    },
+    {
+      "id": 2418,
+      "title": "Blueberry Fruit & Yogurt",
+      "url": "http://poptarts.wikia.com/wiki/Blueberry_Fruit_%26_Yogurt",
+      "ns": 0,
+      "quality": 22
+
+    },
+    {
+      "id": 2369,
+      "title": "Strawberry Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_Pastry_Swirls",
+      "ns": 0,
+      "quality": 20
+
+    },
+    {
+      "id": 2421,
+      "title": "Ice-Berry Blast",
+      "url": "http://poptarts.wikia.com/wiki/Ice-Berry_Blast",
+      "ns": 0,
+      "quality": 12
+    },
+    {
+      "id": 2396,
+      "title": "Cheese and Cherry Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Cheese_and_Cherry_Pastry_Swirls",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2998,
+      "title": "Ice Cream Shoppe Frosted Rainbow Cookie Sandwich",
+      "url": "http://poptarts.wikia.com/wiki/Ice_Cream_Shoppe_Frosted_Rainbow_Cookie_Sandwich",
+      "ns": 0,
+      "quality": 27
+    },
+    {
+      "id": 2140,
+      "title": "Hot Chocolate",
+      "url": "http://poptarts.wikia.com/wiki/Hot_Chocolate",
+      "ns": 0,
+      "quality": 17
+    },
+    {
+      "id": 2099,
+      "title": "Chocolate Strawberry Splitz",
+      "url": "http://poptarts.wikia.com/wiki/Chocolate_Strawberry_Splitz",
+      "ns": 0,
+      "quality": 12
+
+    },
+    {
+      "id": 2133,
+      "title": "Whole Grain Brown Sugar Cinnamon",
+      "url": "http://poptarts.wikia.com/wiki/Whole_Grain_Brown_Sugar_Cinnamon",
+      "ns": 0,
+      "quality": 63
+
+    },
+    {
+      "id": 2529,
+      "title": "Mini Crisps",
+      "url": "http://poptarts.wikia.com/wiki/Mini_Crisps",
+      "ns": 0,
+      "quality": 39
+
+    },
+    {
+      "id": 2321,
+      "title": "Low Fat Frosted Chocolate Fudge",
+      "url": "http://poptarts.wikia.com/wiki/Low_Fat_Frosted_Chocolate_Fudge",
+      "ns": 0,
+      "quality": 23
+    },
+    {
+      "id": 2130,
+      "title": "Whole Grain Strawberry",
+      "url": "http://poptarts.wikia.com/wiki/Whole_Grain_Strawberry",
+      "ns": 0,
+      "quality": 16
+    },
+    {
+      "id": 2135,
+      "title": "Whole Grain Chocolate Fudge",
+      "url": "http://poptarts.wikia.com/wiki/Whole_Grain_Chocolate_Fudge",
+      "ns": 0,
+      "quality": 14
+    },
+    {
+      "id": 2398,
+      "title": "Strawberry Fruit & Yogurt",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_Fruit_%26_Yogurt",
+      "ns": 0,
+      "quality": 23
+
+    },
+    {
+      "id": 2198,
+      "title": "Apple Cinnamon",
+      "url": "http://poptarts.wikia.com/wiki/Apple_Cinnamon",
+      "ns": 0,
+      "quality": 29
+    },
+    {
+      "id": 2124,
+      "title": "Barbie Islandberry",
+      "url": "http://poptarts.wikia.com/wiki/Barbie_Islandberry",
+      "ns": 0,
+      "quality": 17
+    },
+    {
+      "id": 2122,
+      "title": "Barbie Sparkleberry",
+      "url": "http://poptarts.wikia.com/wiki/Barbie_Sparkleberry",
+      "ns": 0,
+      "quality": 26
+    },
+    {
+      "id": 2428,
+      "title": "Trivial Pursuit",
+      "url": "http://poptarts.wikia.com/wiki/Trivial_Pursuit",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 2464,
+      "title": "Pirates of The Caribbean Treasure Maps",
+      "url": "http://poptarts.wikia.com/wiki/Pirates_of_The_Caribbean_Treasure_Maps",
+      "ns": 0,
+      "quality": 10
+    },
+    {
+      "id": 2085,
+      "title": "Frosted Wild! Berry",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Wild!_Berry",
+      "ns": 0,
+      "quality": 18
+    },
+    {
+      "id": 2201,
+      "title": "Low Fat Frosted Brown Sugar Cinnamon",
+      "url": "http://poptarts.wikia.com/wiki/Low_Fat_Frosted_Brown_Sugar_Cinnamon",
+      "ns": 0,
+      "quality": 31
+    },
+    {
+      "id": 2147,
+      "title": "Wild! Tropical Blast",
+      "url": "http://poptarts.wikia.com/wiki/Wild!_Tropical_Blast",
+      "ns": 0,
+      "quality": 12
+    },
+    {
+      "id": 2374,
+      "title": "Cheese Danish Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Cheese_Danish_Pastry_Swirls",
+      "ns": 0,
+      "quality": 21
+
+    },
+    {
+      "id": 2080,
+      "title": "Strawberry Milkshake",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_Milkshake",
+      "ns": 0,
+      "quality": 28
+    },
+    {
+      "id": 2377,
+      "title": "Apple Cinnamon Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Apple_Cinnamon_Pastry_Swirls",
+      "ns": 0,
+      "quality": 34
+    },
+    {
+      "id": 2454,
+      "title": "Wild Bubble-Berry",
+      "url": "http://poptarts.wikia.com/wiki/Wild_Bubble-Berry",
+      "ns": 0,
+      "quality": 13
+    },
+    {
+      "id": 2126,
+      "title": "Pictionary",
+      "url": "http://poptarts.wikia.com/wiki/Pictionary",
+      "ns": 0,
+      "quality": 16
+    },
+    {
+      "id": 2091,
+      "title": "Blueberry (Unfrosted)",
+      "url": "http://poptarts.wikia.com/wiki/Blueberry_(Unfrosted)",
+      "ns": 0,
+      "quality": 82
+    },
+    {
+      "id": 3519,
+      "title": "Oatmeal Delights",
+      "url": "http://poptarts.wikia.com/wiki/Oatmeal_Delights",
+      "ns": 0,
+      "quality": 6
+    },
+    {
+      "id": 2114,
+      "title": "Orange Cream",
+      "url": "http://poptarts.wikia.com/wiki/Orange_Cream",
+      "ns": 0,
+      "quality": 19
+    },
+    {
+      "id": 2033,
+      "title": "Frosted Strawberry",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Strawberry",
+      "ns": 0,
+      "quality": 73
+    },
+    {
+      "id": 2432,
+      "title": "Frosted Berry Snak-Stix",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Berry_Snak-Stix",
+      "ns": 0,
+      "quality": 7
+    },
+    {
+      "id": 2112,
+      "title": "Guava Mango",
+      "url": "http://poptarts.wikia.com/wiki/Guava_Mango",
+      "ns": 0,
+      "quality": 15
+    },
+    {
+      "id": 2423,
+      "title": "Frosted Double Chocolate Snak-Stix",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Double_Chocolate_Snak-Stix",
+      "ns": 0,
+      "quality": 22
+    },
+    {
+      "id": 2052,
+      "title": "Chocolate Banana Split",
+      "url": "http://poptarts.wikia.com/wiki/Chocolate_Banana_Split",
+      "ns": 0,
+      "quality": 20
+    },
+    {
+      "id": 2804,
+      "title": "Frosted Pumpkin Pie",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Pumpkin_Pie",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 3735,
+      "title": "Printed Fun Limited Edition",
+      "url": "http://poptarts.wikia.com/wiki/Printed_Fun_Limited_Edition",
+      "ns": 0,
+      "quality": 10
+    },
+
+    {
+      "id": 2248,
+      "title": "Indiana Jones Brown Sugar Cinnamon",
+      "url": "http://poptarts.wikia.com/wiki/Indiana_Jones_Brown_Sugar_Cinnamon",
+      "ns": 0,
+      "quality": 52
+    },
+    {
+      "id": 4073,
+      "title": "Chocolatey Caramel",
+      "url": "http://poptarts.wikia.com/wiki/Chocolatey_Caramel",
+      "ns": 0,
+      "quality": 20
+    },
+    {
+      "id": 2346,
+      "title": "Brown Sugar Cinnamon Pop Tarts Crunch",
+      "url": "http://poptarts.wikia.com/wiki/Brown_Sugar_Cinnamon_Pop_Tarts_Crunch",
+      "ns": 0,
+      "quality": 51
+    },
+    {
+      "id": 2394,
+      "title": "Cinnamon Creme Danish Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Cinnamon_Creme_Danish_Pastry_Swirls",
+      "ns": 0,
+      "quality": 33
+    },
+    {
+      "id": 2275,
+      "title": "Strawberry (Go Tarts)",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_(Go_Tarts)",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 2110,
+      "title": "Dulce de Leche",
+      "url": "http://poptarts.wikia.com/wiki/Dulce_de_Leche",
+      "ns": 0,
+      "quality": 16
+    },
+    {
+      "id": 2283,
+      "title": "Chocolate Chip (Go Tarts)",
+      "url": "http://poptarts.wikia.com/wiki/Chocolate_Chip_(Go_Tarts)",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 2625,
+      "title": "Cookies & Creme Snak-Stix",
+      "url": "http://poptarts.wikia.com/wiki/Cookies_%26_Creme_Snak-Stix",
+      "ns": 0,
+      "quality": 18
+    },
+    {
+      "id": 2466,
+      "title": "Frosted Caramel Chocolate Snak-Stix",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Caramel_Chocolate_Snak-Stix",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 3943,
+      "title": "Limited Edition Frosted Maple Bacon",
+      "url": "http://poptarts.wikia.com/wiki/Limited_Edition_Frosted_Maple_Bacon",
+      "ns": 0,
+      "quality": 5
+    },
+    {
+      "id": 2462,
+      "title": "Robo Berry Blast",
+      "url": "http://poptarts.wikia.com/wiki/Robo_Berry_Blast",
+      "ns": 0,
+      "quality": 5
+    },
+    {
+      "id": 2203,
+      "title": "Category:Low Fat",
+      "url": "http://poptarts.wikia.com/wiki/Category:Low_Fat",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2100,
+      "title": "Category:Splitz",
+      "url": "http://poptarts.wikia.com/wiki/Category:Splitz",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2399,
+      "title": "Category:Fruit & Yogurt",
+      "url": "http://poptarts.wikia.com/wiki/Category:Fruit_%26_Yogurt",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2108,
+      "title": "Category:Limited Edition",
+      "url": "http://poptarts.wikia.com/wiki/Category:Limited_Edition",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2117,
+      "title": "Category:Printed Fun",
+      "url": "http://poptarts.wikia.com/wiki/Category:Printed_Fun",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2131,
+      "title": "Category:Whole Grain",
+      "url": "http://poptarts.wikia.com/wiki/Category:Whole_Grain",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2378,
+      "title": "Wild Strawberry",
+      "url": "http://poptarts.wikia.com/wiki/Wild_Strawberry",
+      "ns": 0,
+      "quality": 27
+    },
+    {
+      "id": 2027,
+      "title": "Frosted Chocolate Chip",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Chip",
+      "ns": 0,
+      "quality": 26
+    },
+    {
+      "id": 2075,
+      "title": "Gingerbread",
+      "url": "http://poptarts.wikia.com/wiki/Gingerbread",
+      "ns": 0,
+      "quality": 25
+    },
+    {
+      "id": 2102,
+      "title": "Chocolate Vanilla Splitz",
+      "url": "http://poptarts.wikia.com/wiki/Chocolate_Vanilla_Splitz",
+      "ns": 0,
+      "quality": 1
+    },
+    {
+      "id": 2128,
+      "title": "NASCAR Brown Sugar Cinnamon",
+      "url": "http://poptarts.wikia.com/wiki/NASCAR_Brown_Sugar_Cinnamon",
+      "ns": 0,
+      "quality": 40
+    },
+    {
+      "id": 3449,
+      "title": "Marshmallow Hot Chocolate",
+      "url": "http://poptarts.wikia.com/wiki/Marshmallow_Hot_Chocolate",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 2627,
+      "title": "Snak-Stix",
+      "url": "http://poptarts.wikia.com/wiki/Snak-Stix",
+      "ns": 0,
+      "quality": 44
+    },
+    {
+      "id": 2285,
+      "title": "Chocolate Fudge (Go Tarts)",
+      "url": "http://poptarts.wikia.com/wiki/Chocolate_Fudge_(Go_Tarts)",
+      "ns": 0,
+      "quality": 30
+    },
+    {
+      "id": 2349,
+      "title": "Strawberry Pop Tarts Crunch",
+      "url": "http://poptarts.wikia.com/wiki/Strawberry_Pop_Tarts_Crunch",
+      "ns": 0,
+      "quality": 29
+    },
+    {
+      "id": 2083,
+      "title": "Vanilla Milkshake",
+      "url": "http://poptarts.wikia.com/wiki/Vanilla_Milkshake",
+      "ns": 0,
+      "quality": 30
+    },
+    {
+      "id": 2408,
+      "title": "Frosted Strawberry Mini Crisps",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Strawberry_Mini_Crisps",
+      "ns": 0,
+      "quality": 23
+    },
+    {
+      "id": 2751,
+      "title": "Choc-o-Lantern Frosted Chocolate Fudge",
+      "url": "http://poptarts.wikia.com/wiki/Choc-o-Lantern_Frosted_Chocolate_Fudge",
+      "ns": 0,
+      "quality": 49
+    },
+    {
+      "id": 2205,
+      "title": "Low Fat Frosted Strawberry",
+      "url": "http://poptarts.wikia.com/wiki/Low_Fat_Frosted_Strawberry",
+      "ns": 0,
+      "quality": 15
+    },
+    {
+      "id": 2073,
+      "title": "Hot Fudge Sundae",
+      "url": "http://poptarts.wikia.com/wiki/Hot_Fudge_Sundae",
+      "ns": 0,
+      "quality": 62
+    },
+    {
+      "id": 2089,
+      "title": "Peanut Butter & Jelly",
+      "url": "http://poptarts.wikia.com/wiki/Peanut_Butter_%26_Jelly",
+      "ns": 0,
+      "quality": 14
+    },
+    {
+      "id": 2039,
+      "title": "Frosted S'mores",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_S%27mores",
+      "ns": 0,
+      "quality": 87
+    },
+    {
+      "id": 2487,
+      "title": "Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Pastry_Swirls",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 2030,
+      "title": "Frosted Apple Strudel",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Apple_Strudel",
+      "ns": 0,
+      "quality": 52
+    },
+    {
+      "id": 2057,
+      "title": "Frosted Raspberry",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Raspberry",
+      "ns": 0,
+      "quality": 30
+    },
+    {
+      "id": 2087,
+      "title": "Dutch Apple",
+      "url": "http://poptarts.wikia.com/wiki/Dutch_Apple",
+      "ns": 0,
+      "quality": 23
+    },
+    {
+      "id": 2511,
+      "title": "Ice Creme Sandwich",
+      "url": "http://poptarts.wikia.com/wiki/Ice_Creme_Sandwich",
+      "ns": 0,
+      "quality": 14
+    },
+    {
+      "id": 2050,
+      "title": "Frosted Blueberry",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Blueberry",
+      "ns": 0,
+      "quality": 52
+    },
+    {
+      "id": 2273,
+      "title": "Go Tarts",
+      "url": "http://poptarts.wikia.com/wiki/Go_Tarts",
+      "ns": 0,
+      "quality": 16
+    },
+    {
+      "id": 2116,
+      "title": "Printed Fun Gingerbread",
+      "url": "http://poptarts.wikia.com/wiki/Printed_Fun_Gingerbread",
+      "ns": 0,
+      "quality": 17
+    },
+    {
+      "id": 2406,
+      "title": "Frosted Chocolate Mini Crisps",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Mini_Crisps",
+      "ns": 0,
+      "quality": 24
+    },
+    {
+      "id": 3865,
+      "title": "Ulala",
+      "url": "http://poptarts.wikia.com/wiki/Ulala",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 2815,
+      "title": "Category:Top 10 Lists",
+      "url": "http://poptarts.wikia.com/wiki/Category:Top_10_Lists",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2028,
+      "title": "Category:Flavors",
+      "url": "http://poptarts.wikia.com/wiki/Category:Flavors",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2280,
+      "title": "1984 U.S. Olympic Team",
+      "url": "http://poptarts.wikia.com/wiki/1984_U.S._Olympic_Team",
+      "ns": 0,
+      "quality": 18
+    },
+    {
+      "id": 2351,
+      "title": "Pop Tarts Crunch",
+      "url": "http://poptarts.wikia.com/wiki/Pop_Tarts_Crunch",
+      "ns": 0,
+      "quality": 39
+    },
+    {
+      "id": 1461,
+      "title": "Pop Tarts Wiki",
+      "url": "http://poptarts.wikia.com/wiki/Pop_Tarts_Wiki",
+      "ns": 0,
+      "quality": 89
+    },
+    {
+      "id": 2024,
+      "title": "Pop-Tarts",
+      "url": "http://poptarts.wikia.com/wiki/Pop-Tarts",
+      "ns": 0,
+      "quality": 96
+    },
+    {
+      "id": 4071,
+      "title": "Pop-Tarts TV Spot, 'Debate'",
+      "url": "http://poptarts.wikia.com/wiki/Pop-Tarts_TV_Spot,_%27Debate%27",
+      "ns": 0,
+      "quality": 37
+    },
+    {
+      "id": 2274,
+      "title": "Category:Go Tarts",
+      "url": "http://poptarts.wikia.com/wiki/Category:Go_Tarts",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2370,
+      "title": "Category:Pastry Swirls",
+      "url": "http://poptarts.wikia.com/wiki/Category:Pastry_Swirls",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2347,
+      "title": "Category:Pop Tarts Crunch",
+      "url": "http://poptarts.wikia.com/wiki/Category:Pop_Tarts_Crunch",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2486,
+      "title": "Category:Popsters",
+      "url": "http://poptarts.wikia.com/wiki/Category:Popsters",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 2433,
+      "title": "Category:Snak-Stix",
+      "url": "http://poptarts.wikia.com/wiki/Category:Snak-Stix",
+      "ns": 14,
+      "quality": null
+    },
+    {
+      "id": 3430,
+      "title": "2012 Team USA Mixed Berry",
+      "url": "http://poptarts.wikia.com/wiki/2012_Team_USA_Mixed_Berry",
+      "ns": 0,
+      "quality": 4
+    },
+    {
+      "id": 4147,
+      "title": "Chaos",
+      "url": "http://poptarts.wikia.com/wiki/Chaos",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 4143,
+      "title": "Frosted crush soda",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_crush_soda",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 4015,
+      "title": "Pink Lemonade",
+      "url": "http://poptarts.wikia.com/wiki/Pink_Lemonade",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 4027,
+      "title": "50 Birthday Birthday Pop-Tarts",
+      "url": "http://poptarts.wikia.com/wiki/50_Birthday_Birthday_Pop-Tarts",
+      "ns": 0,
+      "quality": 0
+    },
+    {
+      "id": 3009,
+      "title": "Frosted Rainbow Cookie Sandwich",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_Rainbow_Cookie_Sandwich",
+      "ns": 0,
+      "quality": 1
+    },
     {
-      id: 2064,
-      title: "Frosted Chocolate Chip Cookie Dough",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Chip_Cookie_Dough",
-      ns: 0,
-      quality: 19,
-      snippet: " Frosted Chocolate Chip Cookie Dough Pop Tarts is one of the frosted <span class="
-      searchmatch ">flavors</span>. It comes in 8 ct, 12 ct, and 16 ct sizes. Included in some 2006&hellip;"
-    },
-    {
-      id: 2138,
-      title: "Frosted Grape",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Grape",
-      ns: 0,
-      quality: 18,
-      snippet: "Frosted Grape Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It came in 8 ct and 6 ct sizes. See also Frosted Wild! Grape External Links Frosted Grape&hellip;"
-    },
-    {
-      id: 2195,
-      title: "Hello Kitty Meow-Berry",
-      url: "http://poptarts.wikia.com/wiki/Hello_Kitty_Meow-Berry",
-      ns: 0,
-      quality: 10,
-      snippet: "Hello Kitty Meow-Berry Pop Tarts are one of the discontinued <span class="
-      searchmatch ">flavors</span>. They only came in 12 ct sizes. The pastries featured multi-colored sprinkles&hellip;"
-    },
-    {
-      id: 2097,
-      title: "Brown Sugar Cinnamon (Unfrosted)",
-      url: "http://poptarts.wikia.com/wiki/Brown_Sugar_Cinnamon_(Unfrosted)",
-      ns: 0,
-      quality: 38,
-      snippet: " Brown Sugar Cinnamon (Unfrosted) Pop Tarts is an unfrosted <span class="
-      searchmatch ">flavor</span>. They only come in 8 ct sizes. See also Frosted Brown Sugar Cinnamon Nascar Brown&hellip;"
-    },
-    {
-      id: 2410,
-      title: "Frosted Wild! Grape",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Wild!_Grape",
-      ns: 0,
-      quality: 22,
-      snippet: " Frosted Wild! Grape Pop Tarts is one of the frosted <span class="
-      searchmatch ">flavors</span>. It only comes in 8 ct sizes and is the first Pop Tarts <span class="
-      searchmatch ">flavor</span> to be released in 2010&hellip;"
-    },
-    {
-      id: 2071,
-      title: "Frosted Cookies & Creme",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Cookies_%26_Creme",
-      ns: 0,
-      quality: 33,
-      snippet: "Frosted Cookies & Creme Pop Tarts is one of the frosted <span class="
-      searchmatch ">flavors</span>. They come in 8 ct, 12 ct, and 16 ct sizes. Trivia This is Hollyshiftwell1's favorite&hellip;"
-    },
-    {
-      id: 2046,
-      title: "Frosted Blueberry Muffin",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Blueberry_Muffin",
-      ns: 0,
-      quality: 14,
-      snippet: " Frosted Blueberry Muffin Pop Tarts is a frosted <span class="
-      searchmatch ">flavor</span>. It only comes in 8 ct sizes. External Links Frosted Blueberry Muffin Pop Tarts&hellip;"
-    },
-    {
-      id: 2095,
-      title: "Strawberry (Unfrosted)",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_(Unfrosted)",
-      ns: 0,
-      quality: 17,
-      snippet: " Strawberry (Unfrosted) Pop Tarts is an unfrosted <span class="
-      searchmatch ">flavor</span>. It comes in 8 ct, 12 ct, 12 ct single serve, pouch, and 16 ct sizes. External Links&hellip;"
-    },
-    {
-      id: 2061,
-      title: "Mint Chocolate Chip",
-      url: "http://poptarts.wikia.com/wiki/Mint_Chocolate_Chip",
-      ns: 0,
-      quality: 33,
-      snippet: "Mint Chocolate Chip Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 ct sizes. According to Kellogg's, Mint Chocolate Chip Pop Tarts&hellip;"
-    },
-    {
-      id: 2277,
-      title: "Brown Sugar Cinnamon (Go Tarts)",
-      url: "http://poptarts.wikia.com/wiki/Brown_Sugar_Cinnamon_(Go_Tarts)",
-      ns: 0,
-      quality: 48,
-      snippet: " Brown Sugar Cinnamon Go Tarts were one of the few Go Tart <span class="
-      searchmatch ">flavors</span>. They only came in 10 ct sizes. See also Go Tarts Strawberry (Go Tarts) Chocolate&hellip;"
-    },
-    {
-      id: 2149,
-      title: "Frosted Caramel Chocolate",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Caramel_Chocolate",
-      ns: 0,
-      quality: 23,
-      snippet: "Frosted Caramel Chocolate Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 8 ct sizes. They were released in 2005 and discontinued&hellip;"
-    },
-    {
-      id: 2324,
-      title: "Wild! Magicburst",
-      url: "http://poptarts.wikia.com/wiki/Wild!_Magicburst",
-      ns: 0,
-      quality: 9,
-      snippet: "Wild! Magicburst Pop Tarts are one of the discontinued <span class="
-      searchmatch ">flavors</span>. They only come in 8 ct sizes. Wild! Magicburst <span class="
-      searchmatch ">Flavor</span>: Blueberry and Raspberry Size&hellip;"
-    },
-    {
-      id: 2035,
-      title: "Frosted Brown Sugar Cinnamon",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Brown_Sugar_Cinnamon",
-      ns: 0,
-      quality: 0,
-      snippet: "Frosted Brown Sugar Cinnamon&hellip;"
-    },
-    {
-      id: 2059,
-      title: "French Toast",
-      url: "http://poptarts.wikia.com/wiki/French_Toast",
-      ns: 0,
-      quality: 47,
-      snippet: " e le vaccaaaititotnt.... Commarciels axtarnel Links 15 year old  Franch girls on emezon.com French Toast <span class="
-      searchmatch ">Flavor</span>: French Toast Size: 8 ct Kellogg's&hellip;"
-    },
-    {
-      id: 2078,
-      title: "Strawberry Cheese Danish",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_Cheese_Danish",
-      ns: 0,
-      quality: 27,
-      snippet: "Strawberry Cheese Danish Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It came in 8 ct and 2 ct sizes and had a strawberry and cream cheese frosting&hellip;"
-    },
-    {
-      id: 2105,
-      title: "Strawberry Blueberry Splitz",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_Blueberry_Splitz",
-      ns: 0,
-      quality: 22,
-      snippet: " Tarts on the Kellogg's website Strawberry Blueberry Splitz <span class="
-      searchmatch ">Flavor</span>: Strawberry and Blueberry Size: 8 ct Kellogg's Description: Toaster pastry filled&hellip;"
-    },
-    {
-      id: 2192,
-      title: "Disney Princess Jewelberry",
-      url: "http://poptarts.wikia.com/wiki/Disney_Princess_Jewelberry",
-      ns: 0,
-      quality: 17,
-      snippet: "Disney Princess Jewelberry Pop Tarts are one of the discontinued <span class="
-      searchmatch ">flavors</span>. They only come in 12 ct sizes. The cover of the box featured some Disney&hellip;"
-    },
-    {
-      id: 2187,
-      title: "Frosted Double Berry",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Double_Berry",
-      ns: 0,
-      quality: 37,
-      snippet: " Frosted Double Berry Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 8 ct sizes. The pastries feature two different <span class="
-      searchmatch ">flavors</span>&hellip;"
-    },
-    {
-      id: 2068,
-      title: "Frosted Cinnamon Roll",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Cinnamon_Roll",
-      ns: 0,
-      quality: 16,
-      snippet: " Frosted Cinnamon Roll Pop Tarts is one of the frosted <span class="
-      searchmatch ">flavors</span>. It only comes in 8 ct sizes. Included in some 2006 packages were codes&hellip;"
-    },
-    {
-      id: 3964,
-      title: "Star Wars LavaBerry PopTarts",
-      url: "http://poptarts.wikia.com/wiki/Star_Wars_LavaBerry_PopTarts",
-      ns: 0,
-      quality: 0,
-      snippet: "Star Wars LavaBerry PopTarts&hellip;"
-    },
-    {
-      id: 2450,
-      title: "Chocolate Vanilla Creme",
-      url: "http://poptarts.wikia.com/wiki/Chocolate_Vanilla_Creme",
-      ns: 0,
-      quality: 23,
-      snippet: "Chocolate Vanilla Creme Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 ct sizes. It was reintroduced in 2014 for the 50th anniversary of Pop&hellip;"
-    },
-    {
-      id: 2418,
-      title: "Blueberry Fruit & Yogurt",
-      url: "http://poptarts.wikia.com/wiki/Blueberry_Fruit_%26_Yogurt",
-      ns: 0,
-      quality: 22,
-      snippet: "Blueberry Fruit & Yogurt Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 8 ct sizes. Pastries <span class="
-      searchmatch ">flavored</span> with this <span class="
-      searchmatch ">flavor</span> feature&hellip;"
-    },
-    {
-      id: 2369,
-      title: "Strawberry Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_Pastry_Swirls",
-      ns: 0,
-      quality: 20,
-      snippet: " Swirls <span class="
-      searchmatch ">Flavor</span>: Strawberry Sizes: 5 ct, 1 ct Kellogg's Description: Naturally and artificially <span class="
-      searchmatch ">flavored</span>. Released: Unknown&hellip;"
-    },
-    {
-      id: 2421,
-      title: "Ice-Berry Blast",
-      url: "http://poptarts.wikia.com/wiki/Ice-Berry_Blast",
-      ns: 0,
-      quality: 12,
-      snippet: "Ice-Berry Blast Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 12 ct sizes. The pastries also feature sprinkles on the top. Ice-Berry&hellip;"
-    },
-    {
-      id: 2396,
-      title: "Cheese and Cherry Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Cheese_and_Cherry_Pastry_Swirls",
-      ns: 0,
-      quality: 0,
-      snippet: "Cheese and Cherry Pastry Swirls&hellip;"
-    },
-    {
-      id: 2998,
-      title: "Ice Cream Shoppe Frosted Rainbow Cookie Sandwich",
-      url: "http://poptarts.wikia.com/wiki/Ice_Cream_Shoppe_Frosted_Rainbow_Cookie_Sandwich",
-      ns: 0,
-      quality: 27,
-      snippet: "Ice Cream Shoppe Frosted Rainbow Cookie Sandwich Pop Tarts is one of the Ice Cream Shoppe <span class="
-      searchmatch ">flavors</span>. It came in 8 ct sizes. Nutritional Information&hellip;"
-    },
-    {
-      id: 2140,
-      title: "Hot Chocolate",
-      url: "http://poptarts.wikia.com/wiki/Hot_Chocolate",
-      ns: 0,
-      quality: 17,
-      snippet: "Hot Chocolate Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 ct sizes. External Links Hot Chocolate Pop Tarts on Amazon.com Hot Chocolate&hellip;"
-    },
-    {
-      id: 2099,
-      title: "Chocolate Strawberry Splitz",
-      url: "http://poptarts.wikia.com/wiki/Chocolate_Strawberry_Splitz",
-      ns: 0,
-      quality: 12,
-      snippet: "Chocolate Strawberry Splitz Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 ct sizes. Chocolate Strawberry Splitz <span class="
-      searchmatch ">Flavor</span>: Chocolate&hellip;"
-    },
-    {
-      id: 2133,
-      title: "Whole Grain Brown Sugar Cinnamon",
-      url: "http://poptarts.wikia.com/wiki/Whole_Grain_Brown_Sugar_Cinnamon",
-      ns: 0,
-      quality: 63,
-      snippet: " <span class="
-      searchmatch ">Flavor</span>: Brown Sugar Cinnamon Sizes: 8 ct, pouch, 10 ct - 1.76 oz Kellogg's Description: Frosted and packed with amazing brown sugar cinnamon <span class="
-      searchmatch ">flavor</span>&hellip;"
-    },
-    {
-      id: 2529,
-      title: "Mini Crisps",
-      url: "http://poptarts.wikia.com/wiki/Mini_Crisps",
-      ns: 0,
-      quality: 39,
-      snippet: " in between,"
-      and "right out of your hand".There are only two < span class = "searchmatch" > flavors < /span>, Frosted Strawberry and Frosted Chocolate. Nutrition 7 vitamins and minerals, 100 calories. <span class="searchmatch">Flavors</span > Frosted Strawberry & hellip;
-      "
-    },
-    {
-      id: 2321,
-      title: "Low Fat Frosted Chocolate Fudge",
-      url: "http://poptarts.wikia.com/wiki/Low_Fat_Frosted_Chocolate_Fudge",
-      ns: 0,
-      quality: 23,
-      snippet: "Low Fat Frosted Chocolate Fudge Pop Tarts are one of the discontinued <span class="
-      searchmatch ">flavors</span>. They only came in 8 ct sizes. It had lower amounts of fat&hellip;"
-    },
-    {
-      id: 2130,
-      title: "Whole Grain Strawberry",
-      url: "http://poptarts.wikia.com/wiki/Whole_Grain_Strawberry",
-      ns: 0,
-      quality: 16,
-      snippet: " sizes. External Links Whole Grain Strawberry Pop Tarts on the Kellogg's website Whole Grain Strawberry <span class="
-      searchmatch ">Flavor</span>: Strawberry Sizes: 8 ct, pouch, 10 ct - 1.76&hellip;"
-    },
-    {
-      id: 2135,
-      title: "Whole Grain Chocolate Fudge",
-      url: "http://poptarts.wikia.com/wiki/Whole_Grain_Chocolate_Fudge",
-      ns: 0,
-      quality: 14,
-      snippet: " Links Whole Grain Chocolate Fudge Pop Tarts on the Kellogg's website Whole Grain Chocolate Fudge <span class="
-      searchmatch ">Flavor</span>: Chocolate Fudge Size: 8 ct Kellogg's Description&hellip;"
-    },
-    {
-      id: 2398,
-      title: "Strawberry Fruit & Yogurt",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_Fruit_%26_Yogurt",
-      ns: 0,
-      quality: 23,
-      snippet: "Strawberry Fruit & Yogurt Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 ct sizes. Pastries with this <span class="
-      searchmatch ">flavor</span> feature strawberry and strawberry&hellip;"
-    },
-    {
-      id: 2198,
-      title: "Apple Cinnamon",
-      url: "http://poptarts.wikia.com/wiki/Apple_Cinnamon",
-      ns: 0,
-      quality: 29,
-      snippet: "Apple Cinnamon Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only comes in 8 ct sizes. See also Frosted Apple Strudel Apple Cinnamon Pastry Swirls Apple&hellip;"
-    },
-    {
-      id: 2124,
-      title: "Barbie Islandberry",
-      url: "http://poptarts.wikia.com/wiki/Barbie_Islandberry",
-      ns: 0,
-      quality: 17,
-      snippet: "Barbie Islandberry is a discontinued Pop Tarts <span class="
-      searchmatch ">flavor</span>. It only came in 12 ct sizes. The pastries featured images from the Barbie movie Barbie&hellip;"
-    },
-    {
-      id: 2122,
-      title: "Barbie Sparkleberry",
-      url: "http://poptarts.wikia.com/wiki/Barbie_Sparkleberry",
-      ns: 0,
-      quality: 26,
-      snippet: "Barbie Sparkleberry Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 12 ct sizes. The pastries featured images from the movie Barbie: Fairytopia&hellip;"
-    },
-    {
-      id: 2428,
-      title: "Trivial Pursuit",
-      url: "http://poptarts.wikia.com/wiki/Trivial_Pursuit",
-      ns: 0,
-      quality: 24,
-      snippet: "Trivial Pursuit Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. They only came in 12 ct sizes. The pastries featured question and answer problems from the Parker&hellip;"
-    },
-    {
-      id: 2464,
-      title: "Pirates of The Caribbean Treasure Maps",
-      url: "http://poptarts.wikia.com/wiki/Pirates_of_The_Caribbean_Treasure_Maps",
-      ns: 0,
-      quality: 10,
-      snippet: "Pirates of the Caribbean Treasure Maps Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 12 ct sizes. The pastries featured multi-colored sprinkles&hellip;"
-    },
-    {
-      id: 2085,
-      title: "Frosted Wild! Berry",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Wild!_Berry",
-      ns: 0,
-      quality: 18,
-      snippet: "Frosted Wild! Berry Pop Tarts is a frosted <span class="
-      searchmatch ">flavor</span>. It only comes in 8 ct sizes. Included in some of the 2006 packages were codes that, when entered&hellip;"
-    },
-    {
-      id: 2201,
-      title: "Low Fat Frosted Brown Sugar Cinnamon",
-      url: "http://poptarts.wikia.com/wiki/Low_Fat_Frosted_Brown_Sugar_Cinnamon",
-      ns: 0,
-      quality: 31,
-      snippet: " Low Fat Frosted Brown Sugar Cinnamon Pop Tarts is a low fat <span class="
-      searchmatch ">flavor</span>. It only comes in 8 ct sizes. See also Brown Sugar Cinnamon (Unfrosted) Nascar&hellip;"
-    },
-    {
-      id: 2147,
-      title: "Wild! Tropical Blast",
-      url: "http://poptarts.wikia.com/wiki/Wild!_Tropical_Blast",
-      ns: 0,
-      quality: 12,
-      snippet: "Wild! Tropical Blast Pop Tarts are one of the discontinued <span class="
-      searchmatch ">flavors</span>. They only come in 8 ct sizes. This article is a stub. You can help Pop Tarts Wiki&hellip;"
-    },
-    {
-      id: 2374,
-      title: "Cheese Danish Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Cheese_Danish_Pastry_Swirls",
-      ns: 0,
-      quality: 21,
-      snippet: " Swirls <span class="
-      searchmatch ">Flavor</span>: Cheese Danish Size: 5 ct Kellogg's Description: Naturally and artificially <span class="
-      searchmatch ">flavored</span>. Released: Unknown&hellip;"
-    },
-    {
-      id: 2080,
-      title: "Strawberry Milkshake",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_Milkshake",
-      ns: 0,
-      quality: 28,
-      snippet: "Strawberry Milkshake Pop Tarts is one of the Ice Cream Shoppe <span class="
-      searchmatch ">Flavors</span>, as well as one of the two Milkshake <span class="
-      searchmatch ">flavors</span>, the other one being Vanilla&hellip;"
-    },
-    {
-      id: 2377,
-      title: "Apple Cinnamon Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Apple_Cinnamon_Pastry_Swirls",
-      ns: 0,
-      quality: 34,
-      snippet: " Apple Cinnamon Pastry Swirls <span class="
-      searchmatch ">Flavor</span>: Apple Cinnamon Size: 5 ct Kellogg's Description: Judged best tasting by professional chefs! (In a national judging&hellip;"
-    },
-    {
-      id: 2454,
-      title: "Wild Bubble-Berry",
-      url: "http://poptarts.wikia.com/wiki/Wild_Bubble-Berry",
-      ns: 0,
-      quality: 13,
-      snippet: "Wild Bubble-Berry Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 8 ct sizes. The pastries featured multi-colored sprinkles&hellip;"
-    },
-    {
-      id: 2126,
-      title: "Pictionary",
-      url: "http://poptarts.wikia.com/wiki/Pictionary",
-      ns: 0,
-      quality: 16,
-      snippet: " Pictionary Pop Tarts are one of the discontinued <span class="
-      searchmatch ">flavors</span>. They only came in 16 ct sizes. The pastries featured images from the popular Mattel board&hellip;"
-    },
-    {
-      id: 2091,
-      title: "Blueberry (Unfrosted)",
-      url: "http://poptarts.wikia.com/wiki/Blueberry_(Unfrosted)",
-      ns: 0,
-      quality: 82,
-      snippet: "fuckberry (Unfrosted) pok Tarts is one of the unfrosted <span class="
-      searchmatch ">flavors</span>. It only comes in 8 ct sizes. External Links fuckberry (Unfrosted) pok Tarts&hellip;"
-    },
-    {
-      id: 3519,
-      title: "Oatmeal Delights",
-      url: "http://poptarts.wikia.com/wiki/Oatmeal_Delights",
-      ns: 0,
-      quality: 6,
-      snippet: "  Oatmeal Delights are a variety of Pop-Tarts made with an oatmeal crust. <span class="
-      searchmatch ">Flavors</span> include Mapley Brown Sugar and Strawberry. Trivia Came out in 2012&hellip;"
-    },
-    {
-      id: 2114,
-      title: "Orange Cream",
-      url: "http://poptarts.wikia.com/wiki/Orange_Cream",
-      ns: 0,
-      quality: 19,
-      snippet: "Orange Cream Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 count sizes. Orange Cream Pop Tarts were released alongside Chocolate Banana Split&hellip;"
-    },
-    {
-      id: 2033,
-      title: "Frosted Strawberry",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Strawberry",
-      ns: 0,
-      quality: 73,
-      snippet: "Frosted Strawberry Pop Tarts is one of the seven most popular <span class="
-      searchmatch ">flavors</span>. It comes in 2 ct, 2 ct vend, 8 ct, 12 ct, 16 ct, and 36 ct sizes. Included&hellip;"
-    },
-    {
-      id: 2432,
-      title: "Frosted Berry Snak-Stix",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Berry_Snak-Stix",
-      ns: 0,
-      quality: 7,
-      snippet: " Frosted Berry Snak-Stix is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 6 ct sizes. Frosted Berry Snak-Stix <span class="
-      searchmatch ">Flavor</span>: Strawberry, Blueberry Size: 6 ct&hellip;"
-    },
-    {
-      id: 2112,
-      title: "Guava Mango",
-      url: "http://poptarts.wikia.com/wiki/Guava_Mango",
-      ns: 0,
-      quality: 15,
-      snippet: " Guava Mango Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 8 ct sizes. It was released alongside Dulce de Leche Pop Tarts. See also Dulce de&hellip;"
-    },
-    {
-      id: 2423,
-      title: "Frosted Double Chocolate Snak-Stix",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Double_Chocolate_Snak-Stix",
-      ns: 0,
-      quality: 22,
-      snippet: "Frosted Double Chocolate Snak-Stix is a discontinued <span class="
-      searchmatch ">flavor</span>. They only came in a 6 ct size. According to Kellogg's, they are supposed&hellip;"
-    },
-    {
-      id: 2052,
-      title: "Chocolate Banana Split",
-      url: "http://poptarts.wikia.com/wiki/Chocolate_Banana_Split",
-      ns: 0,
-      quality: 20,
-      snippet: " Chocolate Chip Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. They only came in 8 ct sizes and were released alongside Orange Cream. See also Orange Cream&hellip;"
-    },
-    {
-      id: 2804,
-      title: "Frosted Pumpkin Pie",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Pumpkin_Pie",
-      ns: 0,
-      quality: 24,
-      snippet: "Frosted Pumpkin Pie Pop Tarts is a limited edition <span class="
-      searchmatch ">flavor</span>. It comes in 12 ct and 16 ct sizes and was released in September 2010. This <span class="
-      searchmatch ">flavor</span>&hellip;"
-    },
-    {
-      id: 3735,
-      title: "Printed Fun Limited Edition",
-      url: "http://poptarts.wikia.com/wiki/Printed_Fun_Limited_Edition",
-      ns: 0,
-      quality: 10,
-      snippet: "Printed Fun Limited Edition Pop Tarts are a special kind of pop tart. They are limited and come in the sugar cookie <span class="
-      searchmatch ">flavor</span>. As their name suggests&hellip;"
-    },
-    {
-      id: 2248,
-      title: "Indiana Jones Brown Sugar Cinnamon",
-      url: "http://poptarts.wikia.com/wiki/Indiana_Jones_Brown_Sugar_Cinnamon",
-      ns: 0,
-      quality: 52,
-      snippet: "Indiana Jones Brown Sugar Cinnamon Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It is probably likely that they came only in an 8 ct size. Each pastry&hellip;"
-    },
-    {
-      id: 4073,
-      title: "Chocolatey Caramel",
-      url: "http://poptarts.wikia.com/wiki/Chocolatey_Caramel",
-      ns: 0,
-      quality: 20,
-      snippet: "Chocolatey Caramel is a Pop-Tart <span class="
-      searchmatch ">flavor</span>. It was shown in the TV spot, Pop-Tarts TV Spot, 'Debate'. In the TV Spot In the TV spot&hellip;"
-    },
-    {
-      id: 2346,
-      title: "Brown Sugar Cinnamon Pop Tarts Crunch",
-      url: "http://poptarts.wikia.com/wiki/Brown_Sugar_Cinnamon_Pop_Tarts_Crunch",
-      ns: 0,
-      quality: 51,
-      snippet: "Brown Sugar Cinnamon Pop Tarts Crunch cereal is one of the two Pop Tarts <span class="
-      searchmatch ">flavors</span> made into cereal. They only came in 12.5 oz sizes. Commercials&hellip;"
-    },
-    {
-      id: 2394,
-      title: "Cinnamon Creme Danish Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Cinnamon_Creme_Danish_Pastry_Swirls",
-      ns: 0,
-      quality: 33,
-      snippet: " Cookies & Creme Chocolate Vanilla Creme Cinnamon Creme Danish Pastry Swirls <span class="
-      searchmatch ">Flavor</span>: Cinnamon and Vanilla Creme Size: 5 ct Kellogg's Description: Naturally&hellip;"
-    },
-    {
-      id: 2275,
-      title: "Strawberry (Go Tarts)",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_(Go_Tarts)",
-      ns: 0,
-      quality: 24,
-      snippet: " Strawberry Go Tarts were one of the few Go Tart <span class="
-      searchmatch ">flavors</span>. They only came in 10 ct sizes. See also Go Tarts Brown Sugar Cinnamon (Go Tarts) Chocolate&hellip;"
-    },
-    {
-      id: 2110,
-      title: "Dulce de Leche",
-      url: "http://poptarts.wikia.com/wiki/Dulce_de_Leche",
-      ns: 0,
-      quality: 16,
-      snippet: "Dulce de Leche Pop Tarts is one of the discontinued <span class="
-      searchmatch ">flavors</span>. It only came in 8 ct sizes. It was released alongside Guava Mango Pop Tarts&hellip;"
-    },
-    {
-      id: 2283,
-      title: "Chocolate Chip (Go Tarts)",
-      url: "http://poptarts.wikia.com/wiki/Chocolate_Chip_(Go_Tarts)",
-      ns: 0,
-      quality: 24,
-      snippet: " Chocolate Chip Go Tarts were one of the few Go Tart <span class="
-      searchmatch ">flavors</span>. They came in 20 ct and 10 ct sizes. See also Go Tarts Strawberry (Go Tarts) Brown Sugar&hellip;"
-    },
-    {
-      id: 2625,
-      title: "Cookies & Creme Snak-Stix",
-      url: "http://poptarts.wikia.com/wiki/Cookies_%26_Creme_Snak-Stix",
-      ns: 0,
-      quality: 18,
-      snippet: " is one of the discontinued Snak-Stix <span class="
-      searchmatch ">flavors</span>. The sizes it came in are unknown. According to Kellogg's, Cookies & Creme Snak-Stix are supposed to be an after-school snack&hellip;"
-    },
-    {
-      id: 2466,
-      title: "Frosted Caramel Chocolate Snak-Stix",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Caramel_Chocolate_Snak-Stix",
-      ns: 0,
-      quality: 24,
-      snippet: " Frosted Caramel Chocolate Snak-Stix is one of the discontinued Snak-Stix <span class="
-      searchmatch ">flavors</span>. It only came in 6 ct sizes. According to Kellogg's, Snak-Stix&hellip;"
-    },
-    {
-      id: 3943,
-      title: "Limited Edition Frosted Maple Bacon",
-      url: "http://poptarts.wikia.com/wiki/Limited_Edition_Frosted_Maple_Bacon",
-      ns: 0,
-      quality: 5,
-      snippet: "This first-ever sweet-and-salty Pop-Tart will have a maple and bacon <span class="
-      searchmatch ">flavored</span> filling. Outside, the sweet white frosting will be sprinkled&hellip;"
-    },
-    {
-      id: 2462,
-      title: "Robo Berry Blast",
-      url: "http://poptarts.wikia.com/wiki/Robo_Berry_Blast",
-      ns: 0,
-      quality: 5,
-      snippet: "Robo Berry Blast <span class="
-      searchmatch ">Flavor</span>: Wildberry Size: 12 ct Kellogg's Description: Exchange: 2-1/2 Carbohydrates, 1 Fat. The dietary exchanges are based&hellip;"
-    },
-    {
-      id: 2203,
-      title: "Category:Low Fat",
-      url: "http://poptarts.wikia.com/wiki/Category:Low_Fat",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are low fat <span class="
-      searchmatch ">flavors</span> of Pop Tarts&hellip;"
-    },
-    {
-      id: 2100,
-      title: "Category:Splitz",
-      url: "http://poptarts.wikia.com/wiki/Category:Splitz",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are Splitz Pop Tarts, which means they have two different <span class="
-      searchmatch ">flavors</span> in one pastery&hellip;"
-    },
-    {
-      id: 2399,
-      title: "Category:Fruit & Yogurt",
-      url: "http://poptarts.wikia.com/wiki/Category:Fruit_%26_Yogurt",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Fruit & Yogurt&hellip;"
-    },
-    {
-      id: 2108,
-      title: "Category:Limited Edition",
-      url: "http://poptarts.wikia.com/wiki/Category:Limited_Edition",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Limited Edition&hellip;"
-    },
-    {
-      id: 2117,
-      title: "Category:Printed Fun",
-      url: "http://poptarts.wikia.com/wiki/Category:Printed_Fun",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Printed Fun&hellip;"
-    },
-    {
-      id: 2131,
-      title: "Category:Whole Grain",
-      url: "http://poptarts.wikia.com/wiki/Category:Whole_Grain",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Whole Grain&hellip;"
-    },
-    {
-      id: 2378,
-      title: "Wild Strawberry",
-      url: "http://poptarts.wikia.com/wiki/Wild_Strawberry",
-      ns: 0,
-      quality: 27,
-      snippet: " Wild Strawberry Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. They only came in 12 ct sizes. There was an American Idol logo on the front of the box. Trivia&hellip;"
-    },
-    {
-      id: 2027,
-      title: "Frosted Chocolate Chip",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Chip",
-      ns: 0,
-      quality: 26,
-      snippet: " Frosted Chocolate Chip Pop Tarts is one of the six most popular <span class="
-      searchmatch ">flavors</span>. It comes in 12 ct, 8 ct, 2 ct, and 16 ct sizes. External Links Frosted&hellip;"
-    },
-    {
-      id: 2075,
-      title: "Gingerbread",
-      url: "http://poptarts.wikia.com/wiki/Gingerbread",
-      ns: 0,
-      quality: 25,
-      snippet: "Gingerbread Pop Tarts is a limited edition <span class="
-      searchmatch ">flavor</span>. It only came in 12 ct sizes. The pastries featured 50 possible Christmas images. See also Boom&hellip;"
-    },
-    {
-      id: 2102,
-      title: "Chocolate Vanilla Splitz",
-      url: "http://poptarts.wikia.com/wiki/Chocolate_Vanilla_Splitz",
-      ns: 0,
-      quality: 1,
-      snippet: "Chocolate Vanilla Splitz <span class="
-      searchmatch ">Flavor</span>: Chocolate and Vanilla Size: 8 ct Kellogg's Description: Chocolate on one side! Vanilla on the other! Naturally&hellip;"
-    },
-    {
-      id: 2128,
-      title: "NASCAR Brown Sugar Cinnamon",
-      url: "http://poptarts.wikia.com/wiki/NASCAR_Brown_Sugar_Cinnamon",
-      ns: 0,
-      quality: 40,
-      snippet: " NASCAR Brown Sugar Cinnamon Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in a 16 ct size. Pastries with this <span class="
-      searchmatch ">flavor</span> featured images of NASCAR&hellip;"
-    },
-    {
-      id: 3449,
-      title: "Marshmallow Hot Chocolate",
-      url: "http://poptarts.wikia.com/wiki/Marshmallow_Hot_Chocolate",
-      ns: 0,
-      quality: 24,
-      snippet: "The Marshmallow Hot Chocolate Pop Tarts packaging. Marshmallow Hot Chocolate Pop Tarts is a limited edition <span class="
-      searchmatch ">flavor</span>. See also Hot Chocolate External&hellip;"
-    },
-    {
-      id: 2627,
-      title: "Snak-Stix",
-      url: "http://poptarts.wikia.com/wiki/Snak-Stix",
-      ns: 0,
-      quality: 44,
-      snippet: " for a Superstar. They were later discontinued. <span class="
-      searchmatch ">Flavors</span> Cookies & Creme Frosted Berry Frosted Caramel Chocolate Frosted Double Chocolate External Links Snak-Stix&hellip;"
-    },
-    {
-      id: 2285,
-      title: "Chocolate Fudge (Go Tarts)",
-      url: "http://poptarts.wikia.com/wiki/Chocolate_Fudge_(Go_Tarts)",
-      ns: 0,
-      quality: 30,
-      snippet: "Chocolate Fudge Go Tarts were one of the few Go Tart <span class="
-      searchmatch ">flavors</span>. They only came in 10 ct sizes. See also Go Tarts Strawberry (Go Tarts) Chocolate Chip&hellip;"
-    },
-    {
-      id: 2349,
-      title: "Strawberry Pop Tarts Crunch",
-      url: "http://poptarts.wikia.com/wiki/Strawberry_Pop_Tarts_Crunch",
-      ns: 0,
-      quality: 29,
-      snippet: "Strawberry Pop Tarts Crunch cereal is one of the two Pop Tarts <span class="
-      searchmatch ">flavors</span> made into cereal. They only come in 12.5 oz sizes. Commercials See also Pop&hellip;"
-    },
-    {
-      id: 2083,
-      title: "Vanilla Milkshake",
-      url: "http://poptarts.wikia.com/wiki/Vanilla_Milkshake",
-      ns: 0,
-      quality: 30,
-      snippet: "Vanilla Milkshake Pop Tarts is one of the Ice Cream Shoppe <span class="
-      searchmatch ">flavors</span>, as well as one of the two milkshake <span class="
-      searchmatch ">flavors</span>, the other being Strawberry Milkshake&hellip;"
-    },
-    {
-      id: 2408,
-      title: "Frosted Strawberry Mini Crisps",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Strawberry_Mini_Crisps",
-      ns: 0,
-      quality: 23,
-      snippet: " Frosted Strawberry Mini Crisps <span class="
-      searchmatch ">Flavor</span>: Strawberry Sizes: 8 ct, 6 ct, pouch Kellogg's Description: 100-calorie pouches of strawberry <span class="
-      searchmatch ">flavored</span>, baked, crispy&hellip;"
-    },
-    {
-      id: 2751,
-      title: "Choc-o-Lantern Frosted Chocolate Fudge",
-      url: "http://poptarts.wikia.com/wiki/Choc-o-Lantern_Frosted_Chocolate_Fudge",
-      ns: 0,
-      quality: 49,
-      snippet: "Fat Frosted Cunt Fudge Pok Tarts is one of the frosted, limited edition <span class="
-      searchmatch ">flavors</span>. It comes in onethreeeeepeee ct and one6 ct sizes&hellip;"
-    },
-    {
-      id: 2205,
-      title: "Low Fat Frosted Strawberry",
-      url: "http://poptarts.wikia.com/wiki/Low_Fat_Frosted_Strawberry",
-      ns: 0,
-      quality: 15,
-      snippet: "Low Fat Frosted Strawberry Pop Tarts is one of the low fat <span class="
-      searchmatch ">flavors</span>. It only comes in 8 ct sizes. External Links Low Fat Frosted Strawberry Pop Tarts&hellip;"
-    },
-    {
-      id: 2073,
-      title: "Hot Fudge Sundae",
-      url: "http://poptarts.wikia.com/wiki/Hot_Fudge_Sundae",
-      ns: 0,
-      quality: 62,
-      snippet: "Hot Fudge Sundae is a Pop-Tart <span class="
-      searchmatch ">flavor</span> part of the Ice Cream Shoppe Pop Tart line up. They come exclusively in 8 packs. Ingredients 8 ounces&hellip;"
-    },
-    {
-      id: 2089,
-      title: "Peanut Butter & Jelly",
-      url: "http://poptarts.wikia.com/wiki/Peanut_Butter_%26_Jelly",
-      ns: 0,
-      quality: 14,
-      snippet: "Peanut Butter & Jelly Pop Tarts was a <span class="
-      searchmatch ">flavor</span> released in 1986, and later discontinued. Available in 6 ct sizes due to differences in the peanut&hellip;"
-    },
-    {
-      id: 2039,
-      title: "Frosted S'mores",
-      url: "http://poptarts.wikia.com/wiki/Frosted_S%27mores",
-      ns: 0,
-      quality: 87,
-      snippet: "Frosted S'mores Pop Tarts is one of the six most popular <span class="
-      searchmatch ">flavors</span>. They come in 4 different sizes: 2 ct, 8 ct, 12 ct and 16 ct sizes. Included&hellip;"
-    },
-    {
-      id: 2487,
-      title: "Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Pastry_Swirls",
-      ns: 0,
-      quality: 24,
-      snippet: "Most came in 5 ct sizes. They were later discontinued. <span class="
-      searchmatch ">Flavors</span> Strawberry Apple Cinnamon Cheese Danish Cheese and Cherry Cinnamon Creme Danish Pastry Swirls&hellip;"
-    },
-    {
-      id: 2030,
-      title: "Frosted Apple Strudel",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Apple_Strudel",
-      ns: 0,
-      quality: 52,
-      snippet: "Frosted Apple Strudel Pop Tarts is one of the six most popular <span class="
-      searchmatch ">flavors</span>. We used to have these with mom, before the bus came. She always felt bad&hellip;"
-    },
-    {
-      id: 2057,
-      title: "Frosted Raspberry",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Raspberry",
-      ns: 0,
-      quality: 30,
-      snippet: "  Frosted Raspberry Pop Tarts is a frosted <span class="
-      searchmatch ">flavor</span>. It only comes in 8 ct sizes. Frosted Raspberry Pop Tarts were one of the three official toaster&hellip;"
-    },
-    {
-      id: 2087,
-      title: "Dutch Apple",
-      url: "http://poptarts.wikia.com/wiki/Dutch_Apple",
-      ns: 0,
-      quality: 23,
-      snippet: "Dutch Apple Pop Tarts is a discontinued <span class="
-      searchmatch ">flavor</span>. It only came in 6 ct sizes. The Dutch Apple Pop Tarts were one of the three official toaster pastries&hellip;"
-    },
-    {
-      id: 2511,
-      title: "Ice Creme Sandwich",
-      url: "http://poptarts.wikia.com/wiki/Ice_Creme_Sandwich",
-      ns: 0,
-      quality: 14,
-      snippet: "Ice Cream Sandwich Pop Tarts is one of the Ice Cream Shoppe <span class="
-      searchmatch ">flavors</span>. It is naturally and artificially <span class="
-      searchmatch ">flavored</span> and has a vanilla-<span class="
-      searchmatch ">flavored</span> filling&hellip;"
-    },
-    {
-      id: 2050,
-      title: "Frosted Blueberry",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Blueberry",
-      ns: 0,
-      quality: 52,
-      snippet: "Frosted Blueberry&hellip;"
-    },
-    {
-      id: 2273,
-      title: "Go Tarts",
-      url: "http://poptarts.wikia.com/wiki/Go_Tarts",
-      ns: 0,
-      quality: 16,
-      snippet: " of a bar. They were discontinued in 2008. <span class="
-      searchmatch ">Flavors</span> Strawberry Brown Sugar Cinnamon Chocolate Chip Chocolate Fudge&hellip;"
-    },
-    {
-      id: 2116,
-      title: "Printed Fun Gingerbread",
-      url: "http://poptarts.wikia.com/wiki/Printed_Fun_Gingerbread",
-      ns: 0,
-      quality: 17,
-      snippet: " these can be found, for they are a limited edition. The pastries feature Christmas images. See also Gingerbread Printed Fun Gingerbread <span class="
-      searchmatch ">Flavor</span>: Gingerbread Sizes: 12&hellip;"
-    },
-    {
-      id: 2406,
-      title: "Frosted Chocolate Mini Crisps",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Chocolate_Mini_Crisps",
-      ns: 0,
-      quality: 24,
-      snippet: " website Frosted Chocolate Mini Crisps <span class="
-      searchmatch ">Flavor</span>: Chocolate Sizes: 8 ct, 6 ct, pouch Kellogg's Description: 100-calorie pouches of chocolate <span class="
-      searchmatch ">flavored</span>, baked&hellip;"
-    },
-    {
-      id: 3865,
-      title: "Ulala",
-      url: "http://poptarts.wikia.com/wiki/Ulala",
-      ns: 0,
-      quality: 0,
-      snippet: "Ulala&hellip;"
-    },
-    {
-      id: 2815,
-      title: "Category:Top 10 Lists",
-      url: "http://poptarts.wikia.com/wiki/Category:Top_10_Lists",
-      ns: 14,
-      quality: null,
-      snippet: " The Top 10 Pop-Tart <span class="
-      searchmatch ">Flavors</span> All Time The Top 10 Frosted Pop-Tart <span class="
-      searchmatch ">Flavors</span> Add Your Own List&hellip;"
-    },
-    {
-      id: 2028,
-      title: "Category:Flavors",
-      url: "http://poptarts.wikia.com/wiki/Category:Flavors",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are <span class="
-      searchmatch ">flavors</span> of Pop Tarts, Go Tarts, Pastry Swirls, Snak-Stix, Popsters, and Pop Tarts Crunch.Frosted Rainbow&hellip;"
-    },
-    {
-      id: 2280,
-      title: "1984 U.S. Olympic Team",
-      url: "http://poptarts.wikia.com/wiki/1984_U.S._Olympic_Team",
-      ns: 0,
-      quality: 18,
-      snippet: " at Sarajevo. The team was sponsored by Pop Tarts with three of their most popular <span class="
-      searchmatch ">flavors</span> at the time: Dutch Apple, Frosted Blueberry, and Frosted Raspberry&hellip;"
-    },
-    {
-      id: 2351,
-      title: "Pop Tarts Crunch",
-      url: "http://poptarts.wikia.com/wiki/Pop_Tarts_Crunch",
-      ns: 0,
-      quality: 39,
-      snippet: " and out".Pop Tarts Crunch Cereal was discontinued in 1995. < span class = "searchmatch" > Flavors < /span> Brown Sugar Cinnamon Strawberry Commercials External Links Pop Tarts Crunch on Mr&hellip;"
-    },
-    {
-      id: 1461,
-      title: "Pop Tarts Wiki",
-      url: "http://poptarts.wikia.com/wiki/Pop_Tarts_Wiki",
-      ns: 0,
-      quality: 89,
-      snippet: " Stick with the Classics What is your all time favorite pop-tart? Click for <span class="
-      searchmatch ">flavors</span>. Read more > Dulce de Leche INSIDE a pop-tart? Too good&hellip;"
-    },
-    {
-      id: 2024,
-      title: "Pop-Tarts",
-      url: "http://poptarts.wikia.com/wiki/Pop-Tarts",
-      ns: 0,
-      quality: 96,
-      snippet: "They are usually sold in pairs inside foil packages, and do not require refrigeration. Pop tarts were invented in 1962 Popular <span class="
-      searchmatch ">flavors</span> include Frosted Chocolate Chip&hellip;"
-    },
-    {
-      id: 4071,
-      title: "Pop-Tarts TV Spot, 'Debate'",
-      url: "http://poptarts.wikia.com/wiki/Pop-Tarts_TV_Spot,_%27Debate%27",
-      ns: 0,
-      quality: 37,
-      snippet: "TAAAAAAAAART! (title card) 00:00:01 Poodle: Chocolatey Caramel, there are 22 <span class="
-      searchmatch ">flavors</span>. Why should you be Pop-Tart president? 00:00:05 Chocolatey Caramel: America&hellip;"
-    },
-    {
-      id: 2274,
-      title: "Category:Go Tarts",
-      url: "http://poptarts.wikia.com/wiki/Category:Go_Tarts",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Go Tarts&hellip;"
-    },
-    {
-      id: 2370,
-      title: "Category:Pastry Swirls",
-      url: "http://poptarts.wikia.com/wiki/Category:Pastry_Swirls",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Pastry Swirls&hellip;"
-    },
-    {
-      id: 2347,
-      title: "Category:Pop Tarts Crunch",
-      url: "http://poptarts.wikia.com/wiki/Category:Pop_Tarts_Crunch",
-      ns: 14,
-      quality: null,
-      snippet: "Category:Pop Tarts Crunch&hellip;"
-    },
-    {
-      id: 2486,
-      title: "Category:Popsters",
-      url: "http://poptarts.wikia.com/wiki/Category:Popsters",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are <span class="
-      searchmatch ">flavors</span> of Pop Tarts Popsters&hellip;"
-    },
-    {
-      id: 2433,
-      title: "Category:Snak-Stix",
-      url: "http://poptarts.wikia.com/wiki/Category:Snak-Stix",
-      ns: 14,
-      quality: null,
-      snippet: "The articles and media in this category are <span class="
-      searchmatch ">flavors</span> of Snak-Stix&hellip;"
-    },
-    {
-      id: 3430,
-      title: "2012 Team USA Mixed Berry",
-      url: "http://poptarts.wikia.com/wiki/2012_Team_USA_Mixed_Berry",
-      ns: 0,
-      quality: 4,
-      snippet: " Team USA Mixed Berry was released in 2012 to support the 2012 American Olympic Team. Team USA Mixed Berry is a limited edition <span class="
-      searchmatch ">flavor</span>. Pastries&hellip;"
-    },
-    {
-      id: 4147,
-      title: "Chaos",
-      url: "http://poptarts.wikia.com/wiki/Chaos",
-      ns: 0,
-      quality: 0,
-      snippet: " <span class="
-      searchmatch ">Flavor</span> All Released Forever&hellip;"
-    },
-    {
-      id: 4143,
-      title: "Frosted crush soda",
-      url: "http://poptarts.wikia.com/wiki/Frosted_crush_soda",
-      ns: 0,
-      quality: 0,
-      snippet: "Frosted crush soda&hellip;"
-    },
-    {
-      id: 4015,
-      title: "Pink Lemonade",
-      url: "http://poptarts.wikia.com/wiki/Pink_Lemonade",
-      ns: 0,
-      quality: 0,
-      snippet: "Pink Lemonade is a limited edition <span class="
-      searchmatch ">flavor</span> of Pop Tarts. It was released in March or April 2016. It has a pink lemon filling, with pink frosting&hellip;"
-    },
-    {
-      id: 4027,
-      title: "50 Birthday Birthday Pop-Tarts",
-      url: "http://poptarts.wikia.com/wiki/50_Birthday_Birthday_Pop-Tarts",
-      ns: 0,
-      quality: 0,
-      snippet: "50th Birthday Birthday Cake was a Pop-Tarts <span class="
-      searchmatch ">flavor</span> that celebrated the 50th anniversary of Pop-Tarts&hellip;"
-    },
-    {
-      id: 3009,
-      title: "Frosted Rainbow Cookie Sandwich",
-      url: "http://poptarts.wikia.com/wiki/Frosted_Rainbow_Cookie_Sandwich",
-      ns: 0,
-      quality: 1,
-      snippet: "Frosted Rainbow Cookie Sandwich is an Ice Cream Shoppe <span class="
-      searchmatch ">flavor</span> that only came in 8ct sizes. Release: Unknown Kellogg's description Just like a cookie&hellip;"
-    },
-    {
-      id: 4014,
-      title: "Frosted A&W Root Beer",
-      url: "http://poptarts.wikia.com/wiki/Frosted_A%26W_Root_Beer",
-      ns: 0,
-      quality: 0,
-      snippet: "Frosted A&W Root Beer is one of two Soda-Mazing Pop Tart <span class="
-      searchmatch ">flavors</span>. It was released in May 2016&hellip;"
+      "id": 4014,
+      "title": "Frosted A&W Root Beer",
+      "url": "http://poptarts.wikia.com/wiki/Frosted_A%26W_Root_Beer",
+      "ns": 0,
+      "quality": 0
     }
   ]
 }
