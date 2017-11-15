@@ -4,7 +4,7 @@
   "description": "",
   "main": "tests.js",
   "scripts": {
-    "test": "tape .test.js | tap-spec",
+    "test": "tape tests.js | tap-spec",
     "start": "node src/server.js",
     "nodemon": "nodemon src/server.js"
   },
