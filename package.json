@@ -1,0 +1,19 @@
+{
+  "name": "poptart-pickup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-12/poptart-pickup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-12/poptart-pickup/issues"
+  },
+  "homepage": "https://github.com/fac-12/poptart-pickup#readme"
+}
