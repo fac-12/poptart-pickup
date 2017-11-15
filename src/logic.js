@@ -14,13 +14,16 @@ const logicFunctions = {
 },
 
  filterJSON: (inputStr) => {
-//clone the JSON object
-
+   const newObj = logicFunctions.cloneObject(flavours)
+   const filterArr = newObj.items.filter(item => {
+     return item.title.charAt(0).toLowerCase() === inputStr.charAt(0).toLowerCase();
+   })
+ console.log(filterArr);
 //based on input string, search through title key in the
 //objects and output the ones that have an instance of the letter that is inputStr
-
-
 }
 
 }
+  logicFunctions.filterJSON("a");
+
 module.exports = logicFunctions;
