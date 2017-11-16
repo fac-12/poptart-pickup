@@ -9,6 +9,7 @@ function request(url) {
             } else {
                 //handle error here
             }
+
         }
     };
     xhr.open("GET", url, true);

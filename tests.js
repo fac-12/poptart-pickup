@@ -10,7 +10,7 @@ test("Tape is working", (t) =>{
 })
 
 test("Testing clone JSON object", (t) => {
-  t.notDeepEqual(typeof logicFunctions.cloneObject(flavours), "object", "should return an object");
+  t.equals(typeof logicFunctions.cloneObject(flavours), "object", "should return an object");
   t.end();
 })
 
