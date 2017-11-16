@@ -5,7 +5,6 @@
 // ------- FILTER JSON ------- //
 // input : JSON obj and outputs filtered object
 // return object
-
 const flavours = require('./flavour.json');
 
 //Clone the JSON object
@@ -20,7 +19,6 @@ const logicFunctions = {
     return jsonObj;
 
   }
-
 
 
 }

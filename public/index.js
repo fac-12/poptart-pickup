@@ -3,7 +3,7 @@
 var input = document.getElementById('poptart-list');
 var datalist = document.getElementById('poptart-data');
 
-input.addEventListener('keypress', function(event) {
+input.addEventListener('keyup', function(event) {
   var inputStr = event.target.value;
   var code = event.keyCode;
   request("flavours?inputStr=" + inputStr + "&keycode=" + code);
@@ -12,7 +12,6 @@ input.addEventListener('keypress', function(event) {
 
 // ------- RENDER TO DOM ------- //
 // input : JSON object - should add <option> inside datalist
-
 
 function renderData(responseObj) {
   (responseObj.items).forEach((item) => {
