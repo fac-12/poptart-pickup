@@ -48,14 +48,11 @@ const staticFileHandler = (request, response, url) => {
 // calls filter JSON passing in JSON object
 
 const flavourHandler = (request, response, url) => {
-  const inputStr = url.split('&')[0].split('=')[1].toLowerCase();
-  const re = new RegExp('^' + inputStr);
-  //const re2 = new RegExp (inputStr);
-  const initialResults = logic.filterJSON(re);
-  //const otherResults = logic.filterJSON(re2);
-  response.writeHead(200, 'Content-Type: application/json');
-  response.end(initialResults);
-
+    const inputStr = url.split('&')[0].split('=')[1].toLowerCase();
+    const re = new RegExp('^' + inputStr);
+    const initialResults = logic.filterJSON(re);
+    response.writeHead(200, 'Content-Type: application/json');
+    response.end(initialResults);
 }
 
 

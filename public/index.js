@@ -1,26 +1,27 @@
-// ------- EVENT LISTENER ------- //
-// output : input.value (text from field)
 var input = document.getElementById('poptart-list');
 var datalist = document.getElementById('poptart-data');
 
-input.addEventListener('keypress', function(event) {
-  var inputStr = event.target.value;
-  var code = event.keyCode;
-  request("flavours?inputStr=" + inputStr + "&keycode=" + code);
-
+// ------- EVENT LISTENER ------- //
+input.addEventListener('keyup', function(event) {
+    var inputStr = event.target.value;
+    var code = event.keyCode;
+    if (inputStr != "") {
+        request("flavours?inputStr=" + inputStr + "&keycode=" + code);
+    } else {
+        while (datalist.hasChildNodes()) {
+            datalist.removeChild(datalist.lastChild);
+        }
+    }
 });
 
 // ------- RENDER TO DOM ------- //
-// input : JSON object - should add <option> inside datalist
-
-
 function renderData(responseObj) {
-  (responseObj.items).forEach((item) => {
-    console.log(item.title);
-    var option = document.createElement('option');
-    option.value = item.title;
-    datalist.appendChild(option);
-  })
-  console.log("render");
+    while (datalist.hasChildNodes()) {
+        datalist.removeChild(datalist.lastChild);
+    }
+    responseObj.forEach(function(item) {
+        var option = document.createElement('option');
+        option.value = item.title;
+        datalist.appendChild(option);
+    })
 }
-renderData(responseObj)
