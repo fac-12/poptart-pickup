@@ -9,12 +9,12 @@ test("Tape is working", (t) =>{
   t.end();
 })
 
-test("Testing clone JSON object", (t) => {
-  t.equals(typeof logicFunctions.cloneObject(flavours), "object", "should return an object");
-  t.end();
-})
-
 test("Testing filterJSON function", (t) => {
-  t.equals()
+  const inputStr = /^a/;
+  const obj = (logicFunctions.filterJSON(inputStr))[0];
+  const actual = (obj.title).charAt(0).toLowerCase();
+
+  const expected = 'a';
+  t.equals(actual, expected, "should return an a");
   t.end();
 })
