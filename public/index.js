@@ -3,7 +3,7 @@
 var input = document.getElementByID('poptart-list');
 
 
-input.addEventListener('keypress', function(){window.alert(input.value);});
+input.addEventListener('keypress', function() { window.alert(input.value); });
 
 
 
