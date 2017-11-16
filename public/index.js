@@ -1,9 +1,12 @@
 // ------- EVENT LISTENER ------- //
 // output : input.value (text from field)
-var input = document.getElementByID('poptart-list');
+var input = document.getElementById('poptart-list');
 
-
-input.addEventListener('keypress', function() { window.alert(input.value); });
+input.addEventListener('keyup', function(event) {
+    var inputStr = event.target.value;
+    var code = event.keyCode;
+    request("flavours?inputStr=" + inputStr + "keycode=" + code);
+});
 
 
 
@@ -11,7 +14,9 @@ input.addEventListener('keypress', function() { window.alert(input.value); });
 // ------- RENDER TO DOM ------- //
 // input : JSON object - should add <option> inside datalist
 
-
+function renderData(response) {
+    console.log(response);
+}
 
 // ------- CALL REQUEST ------- //
 // url = 'flavours'

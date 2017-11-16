@@ -46,8 +46,8 @@ const staticFileHandler = (request, response, url) => {
 // ------- FLAVOUR HANDLER ------- //
 // calls filter JSON passing in JSON object
 
-const flavourHandler = (request, response, url, inputStr) => {
-    console.log('flavourHandler');
+const flavourHandler = (request, response, url) => {
+    console.log(url);
 }
 
 module.exports = { homeHandler, staticFileHandler, flavourHandler }
