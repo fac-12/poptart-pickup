@@ -7,7 +7,7 @@ function request(url) {
                 responseObj = JSON.parse(xhr.responseText);
                 renderData(responseObj);
             } else {
-                //handle error here
+                alert("Ooops something went wrong!")
             }
         }
     };

@@ -1,6 +1,3 @@
-// ------- ROUTER ------- //
-// input : request, response
-// Calls homeHandler or staticFileHandler or flavourHandler or default (404)
 var { homeHandler, staticFileHandler, flavourHandler } = require('./handler');
 
 function router(request, response) {
