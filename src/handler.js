@@ -24,7 +24,8 @@ const staticFileHandler = (request, response, url) => {
         html: 'text/html',
         css: 'text/css',
         js: 'application/javascript',
-        ico: 'image/x-icon'
+        ico: 'image/x-icon',
+        ttf: 'application/octet-stream'
     };
     var extension = url.split('.')[1];
     var filePath = path.join(__dirname, '..', url);
