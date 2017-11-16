@@ -4,9 +4,8 @@ var datalist = document.getElementById('poptart-data');
 // ------- EVENT LISTENER ------- //
 input.addEventListener('keyup', function(event) {
     var inputStr = event.target.value;
-    var code = event.keyCode;
     if (inputStr != "") {
-        request("flavours?inputStr=" + inputStr + "&keycode=" + code);
+        request("flavours?inputStr=" + inputStr);
     } else {
         while (datalist.hasChildNodes()) {
             datalist.removeChild(datalist.lastChild);

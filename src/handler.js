@@ -2,9 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const logic = require('./logic.js')
 
-// ------- HOME HANDLER ------- //
-// input : request, response
-// serves up index.Chocolatey_Caramel
 
 const homeHandler = (request, response) => {
     fs.readFile(path.join(__dirname, '..', 'public', 'index.html'), 'utf8', (err, file) => {
@@ -21,10 +18,6 @@ const homeHandler = (request, response) => {
         }
     });
 }
-
-// ------- STATIC FILE HANDLER ------ //
-// input : request, response, url
-// serves up static files
 
 const staticFileHandler = (request, response, url) => {
     var extensionType = {
@@ -44,15 +37,13 @@ const staticFileHandler = (request, response, url) => {
     });
 }
 
-// ------- FLAVOUR HANDLER ------- //
-// calls filter JSON passing in JSON object
-
 const flavourHandler = (request, response, url) => {
-    const inputStr = url.split('&')[0].split('=')[1].toLowerCase();
+    const inputStr = url.split('=')[1].toLowerCase();
     const re = new RegExp('^' + inputStr);
-    const initialResults = logic.filterJSON(re);
+    const arr = logic.filterJSON(re);
+    const JSONobj = JSON.stringify(logic.sortAlpha(arr));
     response.writeHead(200, 'Content-Type: application/json');
-    response.end(initialResults);
+    response.end(JSONobj);
 }
 
 
