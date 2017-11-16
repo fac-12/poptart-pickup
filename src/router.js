@@ -1,4 +1,4 @@
-var { homeHandler, staticFileHandler, flavourHandler } = require('./handler');
+var { homeHandler, staticFileHandler, flavourHandler, submitHandler } = require('./handler');
 
 function router(request, response) {
     var url = request.url;
