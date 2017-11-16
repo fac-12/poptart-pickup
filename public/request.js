@@ -1,26 +1,16 @@
-var request = (function () {
-  function _request (method, url, data, cb) {
+function request(url) {
     var xhr = new XMLHttpRequest();
-    var dataString = JSON.parse(data);
 
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4) {
-        if (xhr.status === 200) {
-          cb(null, JSON.parse(xhr.responseText));
-        } else {
-          cb(true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                responseObj = JSON.parse(xhr.responseText);
+                renderData(responseObj);
+            } else {
+                //handle error here
+            }
         }
-      }
     };
-    xhr.open(method, url);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(dataString);
-  };
-
-  var get = function (url, cb) { _request('GET', url, null, cb); }
-
-  return request = {
-    get
-      };
-
-})();
+    xhr.open("GET", url, true);
+    xhr.send();
+};

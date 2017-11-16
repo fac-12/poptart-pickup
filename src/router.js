@@ -12,7 +12,7 @@ function router(request, response) {
         staticFileHandler(request, response, url)
         return;
     } else if (url.indexOf("flavours") !== -1) {
-        flavourHandler(request, response, url, inputStr)
+        flavourHandler(request, response, url);
         return;
     } else {
         response.writeHead(404);
