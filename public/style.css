@@ -85,10 +85,7 @@ img {
     .animation {
         animation: nyan_is_off 4s 1;
     }
-    .hidden {
-
-    }
-    img {
+      img {
         height: 300px;
         width: auto;
     }
