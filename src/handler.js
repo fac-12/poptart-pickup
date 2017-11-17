@@ -25,7 +25,6 @@ const staticFileHandler = (request, response, url) => {
         css: 'text/css',
         js: 'application/javascript',
         ico: 'image/x-icon',
-        ttf: 'application/octet-stream'
     };
     const extension = url.split('.')[1];
     const filePath = path.join(__dirname, '..', url);
