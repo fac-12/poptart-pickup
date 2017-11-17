@@ -6,7 +6,6 @@ const logicFunctions = {
             return inputStr.test(item.title.toLowerCase());
         })
         return filterArr;
-
     },
     sortAlpha: arr => arr.sort((a, b) => a.title > b.title)
 }
