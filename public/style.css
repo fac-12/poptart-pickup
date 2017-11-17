@@ -65,6 +65,7 @@ img {
 .gif_container {
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
 
 .hidden {
@@ -83,6 +84,9 @@ img {
 @media screen and (min-width:650px) {
     .animation {
         animation: nyan_is_off 4s 1;
+    }
+    .hidden {
+
     }
     img {
         height: 300px;

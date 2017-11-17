@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
     <meta charset="utf-8">
@@ -14,14 +14,14 @@
         <h1>Poptart Pickup</h1>
     </div>
     <form id="form">
-        <input list="poptart-data" name="poptart-list" id="poptart-list" placeholder="Enter a flavour :)" />
+        <input list="poptart-data" name="poptart-list" id="poptart-list" placeholder="Enter a flavour :)" aria-label="enter a flavour"/>
 
-        <datalist id="poptart-data"></datalist>
-        <input type="submit" class="hidden" value="Submit">
+        <datalist id="poptart-data" aria-label="list of flavours"></datalist>
+        <input type="submit" class="hidden" value="Submit" required>
     </form>
     <div class="gif_container">
         <div class="hidden" id="returnedFlavour"></div>
-        <img class="gif" id="gif" src="http://24.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif" />
+        <img class="gif" id="gif" alt="nyan cat gif" src="http://24.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif" />
     </div>
     <script src="public/index.js"></script>
     <script src="public/request.js"></script>
