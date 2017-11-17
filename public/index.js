@@ -36,6 +36,8 @@ var animate = function(responseObj) {
             returnedFlavour.className = "hidden";
             gif.className = "gif";
         }, 6000)
+    } else {
+        alert("Please enter a valid flavour")
     }
 
 }
