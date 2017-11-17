@@ -8,8 +8,7 @@ var returnedFlavour = document.getElementById('returnedFlavour');
 input.addEventListener('keyup', function(event) {
     var inputStr = event.target.value;
     if (inputStr != "") {
-
-        request("flavours?inputStr=" + inputStr);
+        request("flavours?inputStr=" + inputStr, renderData);
     } else {
         while (datalist.hasChildNodes()) {
             datalist.removeChild(datalist.lastChild);
@@ -18,8 +17,18 @@ input.addEventListener('keyup', function(event) {
 });
 
 form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        var inputStr = input.value;
+    event.preventDefault();
+    var inputStr = input.value;
+    request("flavours?inputStr=" + inputStr, animate)
+})
+
+var animate = function(responseObj) {
+    var inputStr = input.value;
+    var arr = responseObj.filter(function(item) {
+        return item.title === inputStr;
+    })
+    console.log(arr)
+    if (arr.length > 0) {
         returnedFlavour.innerText = inputStr;
         returnedFlavour.className = "returnedFlavour";
         gif.className += " animation";
@@ -27,10 +36,11 @@ form.addEventListener('submit', function(event) {
             returnedFlavour.className = "hidden";
             gif.className = "gif";
         }, 6000)
-    })
-    
-    // ------- RENDER TO DOM ------- //
-function renderData(responseObj) {
+    }
+
+}
+
+var renderData = function(responseObj) {
     while (datalist.hasChildNodes()) {
         datalist.removeChild(datalist.lastChild);
     }
@@ -41,14 +51,13 @@ function renderData(responseObj) {
     })
 }
 
-function request(url) {
+function request(url, cb) {
     var xhr = new XMLHttpRequest();
-
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
                 responseObj = JSON.parse(xhr.responseText);
-                renderData(responseObj);
+                cb(responseObj)
             } else {
                 alert("Ooops something went wrong!")
             }
