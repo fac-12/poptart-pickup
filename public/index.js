@@ -30,12 +30,21 @@ var animate = function(responseObj) {
     })
     console.log(arr)
     if (arr.length > 0) {
-        returnedFlavour.innerText = inputStr;
+        var banner = document.createElement('div');
+        var text = document.createElement('p');
+        banner.className = "banner"
+        text.className = "text"
+        text.innerText = inputStr;
+        returnedFlavour.appendChild(banner)
+        banner.appendChild(text)
         returnedFlavour.className = "returnedFlavour";
         gif.className += " animation";
         setTimeout(function() {
             returnedFlavour.className = "hidden";
             gif.className = "gif";
+            while (returnedFlavour.hasChildNodes()) {
+                returnedFlavour.removeChild(returnedFlavour.lastChild);
+            }
         }, 6000)
     } else {
         alert("Please enter a valid flavour")
