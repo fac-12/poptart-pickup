@@ -28,6 +28,7 @@ form.addEventListener('submit', function(event) {
             gif.className = "gif";
         }, 6000)
     })
+    
     // ------- RENDER TO DOM ------- //
 function renderData(responseObj) {
     while (datalist.hasChildNodes()) {
