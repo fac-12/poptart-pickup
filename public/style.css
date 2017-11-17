@@ -46,7 +46,6 @@ img {
 }
 
 .returnedFlavour {
-    padding-left: 1.5em;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -58,8 +57,24 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     animation: nyan_is_off 3s 1;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    z-index: 1;
+    background-color: white;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    animation: banner 3s 1;
+}
+
+.text {
+    padding-left: 1.5em;
 }
 
 .gif_container {
@@ -81,18 +96,36 @@ img {
     }
 }
 
+@keyframes banner {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
 @media screen and (min-width:650px) {
     .animation {
         animation: nyan_is_off 4s 1;
     }
+    .banner {
+        animation: banner 4s 1;
+    }
     img {
         height: 300px;
         width: auto;
+    }
+    .returnedFlavour {
+        height: 300px;
     }
 }
 
 @media screen and (min-width:800px) {
     .animation {
         animation: nyan_is_off 6s 1;
+    }
+    .banner {
+        animation: banner 6s 1;
     }
 }
