@@ -20,15 +20,15 @@ const homeHandler = (request, response) => {
 }
 
 const staticFileHandler = (request, response, url) => {
-    var extensionType = {
+    const extensionType = {
         html: 'text/html',
         css: 'text/css',
         js: 'application/javascript',
         ico: 'image/x-icon',
         ttf: 'application/octet-stream'
     };
-    var extension = url.split('.')[1];
-    var filePath = path.join(__dirname, '..', url);
+    const extension = url.split('.')[1];
+    const filePath = path.join(__dirname, '..', url);
     fs.readFile(filePath, function(error, file) {
         if (error) {
             response.end(error);
@@ -40,7 +40,7 @@ const staticFileHandler = (request, response, url) => {
 
 const flavourHandler = (request, response, url) => {
     const inputStr = url.split('=')[1].toLowerCase();
-    const re = new RegExp('^' + inputStr);
+    const re = new RegExp('^[' + inputStr + ' ]');
     const arr = logic.filterJSON(re);
     const JSONobj = JSON.stringify(logic.sortAlpha(arr));
     response.writeHead(200, 'Content-Type: application/json');
