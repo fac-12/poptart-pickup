@@ -24,6 +24,7 @@ form.addEventListener('submit', function(event) {
 
 var animate = function(responseObj) {
     var inputStr = input.value;
+    input.value = "";
     var arr = responseObj.filter(function(item) {
         return item.title === inputStr;
     })
